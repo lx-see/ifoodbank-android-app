@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2F2F4">
+
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+                android:background="#B2F2F4"
+                android:fillViewport="true">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:id="@+id/textView2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginBottom="20sp"
+                    android:text="If you really have difficulty purchasing enough food, kindly contact: "
+                    android:textColor="#F25278"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_marginLeft="20sp"
+                      android:layout_marginRight="20sp"
+                      android:layout_marginBottom="20sp"
+                      android:padding="7sp"
+                      android:background="@drawable/gradient1"
+                      android:textColor="@color/white"
+                      android:textSize="20sp"
+                      android:textStyle="bold"
+                      android:textAlignment="center"
+                      android:text="Yayasan Food Bank Malaysia"/>
+
+            <!-- Phone number -->
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20sp"
+                    app:cardCornerRadius="12dp"
+                    app:contentPadding="6dp">
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp">
+
+                    <ImageView
+                            android:id="@+id/image"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:padding="8sp"
+                            android:background="@drawable/circlebackground"
+                            android:src="@drawable/ic_hotline_phone"/>
+
+                    <TextView
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@+id/image"
+                            android:gravity="center"
+                            android:layout_centerVertical="true"
+                            android:text="+603 8736 0117"
+                            android:textColor="#F25278"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Email address -->
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20sp"
+                    app:cardCornerRadius="12dp"
+                    app:contentPadding="6dp">
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp">
+
+                    <ImageView
+                            android:id="@+id/image2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/circlebackground"
+                            android:padding="13sp"
+                            android:src="@drawable/ic_hotline_email"/>
+
+                    <TextView
+                            android:id="@+id/title2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@+id/image2"
+                            android:gravity="center"
+                            android:layout_centerVertical="true"
+                            android:text="info@yfbm.org"
+                            android:textColor="#F25278"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Address -->
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20sp"
+                    app:cardCornerRadius="12dp"
+                    app:contentPadding="6dp">
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp">
+
+                    <ImageView
+                            android:id="@+id/image3"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:padding="11sp"
+                            android:background="@drawable/circlebackground"
+                            android:src="@drawable/ic_hotline_location"/>
+
+                    <TextView
+                            android:id="@+id/title3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="15sp"
+                            android:paddingRight="15sp"
+                            android:layout_toEndOf="@+id/image3"
+                            android:gravity="center"
+                            android:layout_centerVertical="true"
+                            android:text="Yayasan Food Bank Malaysia. No.8, Jalan BA 4/1, Kawasan Perindustrian Bukit Angkat 4, 43000, Kajang"
+                            android:textColor="#F25278"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" tools:layout_editor_absoluteY="505dp"
+                    android:gravity="center|bottom"
+                    tools:layout_editor_absoluteX="52dp">
+
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/bottomNavigationView"
+                        android:background="#FFFBFB"
+                        app:itemIconTint="#60767F"
+                        app:itemTextColor="#60767F"
+                        app:menu="@menu/navigation" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

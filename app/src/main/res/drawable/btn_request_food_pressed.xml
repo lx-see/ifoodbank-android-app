@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+    <!-- outer shadow -->
+    <item
+            android:top="4sp"
+    >
+        <shape android:shape="rectangle">
+            <solid android:color="#40760D0D"/>
+            <corners android:radius="11dp"/>
+        </shape>
+    </item>
+
+    <!-- front end button -->
+    <item
+            android:bottom="4sp"
+    >
+        <shape android:shape="rectangle">
+            <solid android:color="#F25278"/>
+            <corners android:radius="11dp"/>
+        </shape>
+    </item>
+</layer-list>

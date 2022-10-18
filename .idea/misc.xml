@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/drawable/btn_login_email.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/drawable/btn_request_food.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/drawable/btn_request_food_not_pressed.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/drawable/btn_request_food_pressed.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/drawable/gradient1.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/layout/activity_apply_form.xml" value="0.21" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/layout/activity_login.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/layout/activity_request_food.xml" value="0.22" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/layout/activity_signup.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/layout/activity_update_information.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/layout/activity_welcome.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/User/Desktop/iFoodBank/app/src/main/res/layout/item_foodbank.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/ifoodbank/app/src/main/res/drawable/ic_email.xml" value="0.1505" />
+        <entry key="..\:/Users/User/Desktop/ifoodbank/app/src/main/res/layout/list_location.xml" value="0.12183383991894631" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/btn_login_email.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/btn_login_submit.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/btn_request_food.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/btn_request_food_not_pressed.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/btn_request_food_pressed.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/circlebackgound2.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/circlebackground.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/gradient1.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/ic_baseline_arrow_circle_right_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/ic_baseline_local_dining_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/ic_login_email.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/ic_login_password.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/ic_nav_calendar.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/ic_nav_home.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/ic_nav_profile.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/drawable/item_request_food_background.xml" value="0.236986301369863" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/layout/activity_apply_form.xml" value="0.22592592592592592" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/layout/activity_login.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/layout/activity_main.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/layout/activity_profile.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/layout/activity_request_food.xml" value="0.8" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/layout/activity_update_information.xml" value="0.4" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/layout/activity_update_profile.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/layout/activity_welcome.xml" value="0.22592592592592592" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/layout/item_foodbank.xml" value="0.22592592592592592" />
+        <entry key="..\:/Users/User/Documents/GitHub/ifoodbank-app/app/src/main/res/menu/navigation.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:orderInCategory="0" android:title="@string/nav_home"
+          android:icon="@drawable/ic_nav_home"
+          android:id="@+id/nav_home"
+          android:iconTint="#F25278"
+    />
+
+    <item android:orderInCategory="0" android:title="@string/nav_calendar"
+          android:icon="@drawable/ic_nav_calendar"
+          android:id="@+id/nav_calendar"
+          android:iconTint="#F25278"
+    />
+
+    <item android:orderInCategory="0" android:title="@string/nav_profile"
+                android:icon="@drawable/ic_fb_owner_name"
+                android:id="@+id/nav_profile"
+                android:iconTint="#F25278"
+    />
+
+</menu>

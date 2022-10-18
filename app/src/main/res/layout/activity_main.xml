@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+            android:background="#FFFBFB"
+            android:fillViewport="true">
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/window_background"
+                android:gravity="center_horizontal"
+                tools:context=".MainActivity">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:paddingTop="20sp"
+                    android:background="@drawable/gradient1">
+
+                <ImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/profile_image" />
+
+                <TextView
+                        android:id="@+id/show_welcome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/profile_image"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="10dp"
+                        android:includeFontPadding="true"
+                        android:text="Welcome!"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/show_full_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/show_welcome"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="10dp"
+                        android:includeFontPadding="false"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30sp"
+                        android:layout_marginBottom="70sp"
+                        android:rowCount="3"
+                        android:columnCount="2">
+                <!-- ALL LOCATION -->
+                <androidx.cardview.widget.CardView
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:id="@+id/to_all_location"
+                        android:layout_width="130sp"
+                        android:layout_height="120sp"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                        <ImageView
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebackground"
+                                android:src="@drawable/ic_baseline_location_on_24"
+                                android:padding="10dp">
+                        </ImageView>
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:text="ALL LOCATION">
+                        </TextView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- REQUEST FOOD -->
+                <androidx.cardview.widget.CardView
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:layout_width="130sp"
+                        android:layout_height="120sp"
+                        android:id="@+id/to_request_food"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                        <ImageView
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebackground"
+                                android:src="@drawable/ic_home_acception_history"
+                                android:padding="10dp">
+                        </ImageView>
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:text="REQUEST FOOD">
+                        </TextView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- MANAGE FOODBANK -->
+                <androidx.cardview.widget.CardView
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:id="@+id/to_manage_foodbank"
+                        android:layout_width="130sp"
+                        android:layout_height="120sp"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                        <ImageView
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebackground"
+                                android:src="@drawable/ic_home_manage_foodbank"
+                                android:padding="10dp">
+                        </ImageView>
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:textAlignment="center"
+                                android:text="MANAGE FOODBANK">
+                        </TextView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- ACCEPTION HISTORY -->
+                <androidx.cardview.widget.CardView
+                        android:layout_row="1"
+                        android:layout_column="1"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:id="@+id/to_acception_history"
+                        android:layout_width="130sp"
+                        android:layout_height="120sp"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                        <ImageView
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebackground"
+                                android:src="@drawable/ic_baseline_fastfood_24"
+                                android:padding="10dp">
+                        </ImageView>
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:textAlignment="center"
+                                android:text="ACCEPTION HISTORY">
+                        </TextView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- NOTIFICATION -->
+                <androidx.cardview.widget.CardView
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:id="@+id/to_notification"
+                        android:layout_width="130sp"
+                        android:layout_height="120sp"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                        <ImageView
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebackground"
+                                android:src="@drawable/ic_home_notification"
+                                android:padding="10dp">
+                        </ImageView>
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:text="NOTIFICATION">
+                        </TextView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- HOTLINE -->
+                <androidx.cardview.widget.CardView
+                        android:layout_row="2"
+                        android:layout_column="1"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:id="@+id/to_hotline"
+                        android:layout_width="130sp"
+                        android:layout_height="120sp"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                        <ImageView
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebackground"
+                                android:src="@drawable/ic_baseline_phone_white"
+                                android:padding="10dp">
+                        </ImageView>
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:text="HOTLINE">
+                        </TextView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+        </LinearLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bottomNavigationView"
+                android:background="#FFFBFB"
+                app:itemIconTint="#60767F"
+                app:itemTextColor="#60767F"
+                app:menu="@menu/navigation" />
+    </RelativeLayout>
+
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

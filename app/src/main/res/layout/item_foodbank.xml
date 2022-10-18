@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+    <ImageView
+            android:layout_width="5sp"
+            android:layout_height="50sp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20sp"
+            android:src="@drawable/btn_left_pink" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="55sp"
+                  android:background="@drawable/item_request_food_background"
+                  android:layout_marginBottom="15sp"
+                  android:layout_marginRight="20sp"
+                  android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10sp"
+                android:orientation="vertical">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:id="@+id/foodbank_name"
+                      android:layout_marginTop="8sp"
+                      android:layout_marginBottom="2sp"
+                      android:text="Food Bank A"
+                      android:textColor="#F25278"
+                      android:textSize="14sp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:id="@+id/food_provided"
+                      android:maxWidth="200sp"
+                      android:text="Food provided: xxx, xxx, xxx..."
+                      android:textColor="#50D3EB"
+                      android:textSize="10sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:gravity="right">
+
+            <Button android:layout_width="103sp" android:layout_height="30sp"
+                    android:id="@+id/apply_food_btn"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10sp"
+                    android:text="APPLY"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/btn_request_food"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

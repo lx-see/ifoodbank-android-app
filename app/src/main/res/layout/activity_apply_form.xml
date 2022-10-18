@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/window_background"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+                android:background="#B2F2F4"
+                android:fillViewport="true">
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="70sp"
+                app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                    android:id="@+id/apply_form"
+                    android:clipToPadding="false"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20sp"
+                        android:text="FOOD APPLICATION FORM"
+                        android:textColor="#F25278"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        tools:ignore="RtlCompat"/>
+
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- APPLY FROM -"
+                        android:textColor="#F25278"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        tools:ignore="RtlCompat"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/apply_foodbank_name"
+                        android:text="Food Bank A"
+                        android:textColor="#50D3EB"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        tools:ignore="RtlCompat"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/apply_foodbank_desc"
+                        android:text="100 plus, mineral water"
+                        android:textColor="#50D3EB"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        tools:ignore="RtlCompat"/>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Full Name"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/full_name"
+                                android:drawableLeft="@drawable/ic_baseline_person_pink"
+                                android:drawablePadding="10dp"
+                                android:text=""/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Phone Number"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/phone_no"
+                                android:drawableLeft="@drawable/ic_baseline_phone_pink"
+                                android:drawablePadding="10dp"
+                                android:text=""/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="E-Mail"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/email"
+                                android:drawableLeft="@drawable/ic_baseline_email_pink"
+                                android:drawablePadding="10dp"
+                                android:text=""/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Address"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/address"
+                                android:drawableLeft="@drawable/ic_baseline_home_pink"
+                                android:drawablePadding="10dp"
+                                android:text=""/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                            android:id="@+id/btn_apply_confirm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginRight="50dp"
+                            android:background="@drawable/btn_login_submit"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp"
+                            android:text="SUBMIT"
+                            android:textColor="#F25278"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bottomNavigationView"
+                android:background="#FFFBFB"
+                app:itemIconTint="#60767F"
+                app:itemTextColor="#60767F"
+                app:menu="@menu/navigation" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+</LinearLayout>
